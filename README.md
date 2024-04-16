@@ -9,7 +9,7 @@ Demos of the various blocks are in subfolders with the word "Demo" in the name.
 
 ## Setup
 
-The repository uses NPM primarily to manage the typescript types and compiler. After pulling the repo and installing npm, run the following command to add the types.
+The repository uses NPM to manage the typescript types and compiler. After pulling the repo and installing npm, run the following command to add the types.
 
 ```console
 npm install
