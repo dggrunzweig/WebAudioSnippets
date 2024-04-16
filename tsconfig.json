@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "outDir": "js/",
+        "allowImportingTsExtensions": false
+    },
+    "include": [
+        "TypeScript/TapeDelay.ts"
+    ]
+}

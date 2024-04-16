@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="tapedelay.css">
+    <script type="module" src="TapeDelayDemo.js"></script>
+    <title>Tape Delay Demo</title>
+</head>
+
+<body>
+    <div class="row">
+        <button type="button" id="start_button">Start</button>
+    </div>
+    <div class="row">
+        <div class="slider_el">
+            <p class="slider_label" id="time_label"> Time </p>
+            <input type="range" min="0" max="1" value="0.5" step="0.01" class="slider" id="time">
+        </div>
+        <div class="BPM_div">
+            <input type="checkbox" id="UseBPM" checked="true">
+            <label for="UseBPM" style="font: 15px Arial, sans-serif; color: #EAE9E1;">BPM Sync</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="slider_el">
+            <p class="slider_label" id="feedback_label"> Feedback </p>
+            <input type="range" min="-40" max="0" value="-9" class="slider" id="feedback">
+        </div>
+    </div>
+    <div class="row">
+        <div class="slider_el">
+            <p class="slider_label" id="wobble_depth_label"> Wobble Depth </p>
+            <input type="range" min="0" max="1" value="0.2" step="0.01" class="slider" id="wobble_depth">
+        </div>
+        <div class="slider_el">
+            <p class="slider_label" id="wobble_rate_label"> Wobble Rate </p>
+            <input type="range" min="0" max="10" value="2" step="0.01" class="slider" id="wobble_rate">
+        </div>
+    </div>
+    <div class="row">
+        <div class="slider_el">
+            <p class="slider_label" id="width_label"> Stereo Width </p>
+            <input type="range" min="0" max="1" value="0.1" step="0.01" class="slider" id="width">
+        </div>
+    </div>
+    <div class="row">
+        <div class="slider_el">
+            <p class="slider_label" id="eq_low_label"> EQ Low </p>
+            <input type="range" min="-20" max="6" value="-6" step="0.1" class="slider" id="eq_low">
+        </div>
+        <div class="slider_el">
+            <p class="slider_label" id="eq_high_label"> EQ High </p>
+            <input type="range" min="-20" max="6" value="-3" step="0.1" class="slider" id="eq_high">
+        </div>
+    </div>
+</body>
+
+</html>
